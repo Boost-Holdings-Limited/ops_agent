@@ -8,7 +8,7 @@ from datetime import datetime
 
 import streamlit as st
 import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
+#from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
 import ast
 from tabulate import tabulate
 from dotenv import load_dotenv
