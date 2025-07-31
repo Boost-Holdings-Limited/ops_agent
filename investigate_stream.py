@@ -27,23 +27,23 @@ def load_data():
 cbs, mpesa, switch, disb = load_data() #, tickets
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 # Fetch from environment
-access_key = os.getenv("AWS_ACCESS_KEY_ID")
-secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
-region = os.getenv("AWS_REGION", "us-east-1")
+#access_key = os.getenv("AWS_ACCESS_KEY_ID")
+#secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
+#region = os.getenv("AWS_REGION", "us-east-1")
 
-
+aws_creds = st.secrets["aws"]
 
 # AWS Bedrock client
 try:
 
     bedrock_runtime = boto3.client(
             service_name = "bedrock-runtime",
-            region_name=region,
-            aws_access_key_id=access_key,
-            aws_secret_access_key=secret_key
+            aws_access_key_id=aws_creds["aws_access_key_id"],
+            aws_secret_access_key=aws_creds["aws_secret_access_key"],
+            region_name=aws_creds["region_name"]
         )
 except Exception as e:
     st.error(f"❌ Failed to initialize AWS client: {e}")
