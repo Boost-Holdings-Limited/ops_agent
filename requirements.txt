@@ -4,4 +4,3 @@ python-dotenv
 langchain[bedrock]
 langchain-community
 tabulate
-os
