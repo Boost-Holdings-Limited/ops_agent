@@ -2,3 +2,4 @@ streamlit
 boto3
 python-dotenv
 langchain[bedrock]
+langchain-community
