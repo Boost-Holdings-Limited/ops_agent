@@ -1,0 +1,21 @@
+txn_id,status,response_code,failure_reason
+TXN147074,success,1032,Insufficient funds
+TXN365853,success,00,Insufficient funds
+TXN276074,success,1032,
+TXN852265,success,00,API timeout
+TXN243818,success,404,Invalid MSISDN
+TXN153223,pending,17,Insufficient funds
+TXN808649,failed,404,
+TXN882074,success,1032,API timeout
+TXN115080,failed,00,API timeout
+TXN813011,failed,00,API timeout
+TXN180093,success,404,Invalid MSISDN
+TXN747326,failed,00,Insufficient funds
+TXN692842,success,17,
+TXN476725,success,00,
+TXN464186,pending,00,Invalid MSISDN
+TXN178761,success,1032,
+TXN852290,success,17,Insufficient funds
+TXN768536,success,17,Invalid MSISDN
+TXN701564,success,17,Insufficient funds
+TXN680030,pending,00,

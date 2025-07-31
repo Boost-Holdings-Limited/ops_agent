@@ -1,0 +1,21 @@
+case_id,txn_id,resolution_status,agent_comments
+CASE4690,TXN147074,closed,Waiting on CBS team
+CASE9205,TXN365853,closed,Resolved
+CASE7975,TXN276074,in_progress,Investigating
+CASE5677,TXN852265,open,Retry scheduled
+CASE3242,TXN243818,open,Resolved
+CASE8175,TXN153223,in_progress,Waiting on CBS team
+CASE3999,TXN808649,open,Retry scheduled
+CASE1007,TXN882074,open,Retry scheduled
+CASE1197,TXN115080,open,Resolved
+CASE7391,TXN813011,closed,Retry scheduled
+CASE1417,TXN180093,closed,Waiting on CBS team
+CASE7155,TXN747326,open,Resolved
+CASE7250,TXN692842,open,Investigating
+CASE2720,TXN476725,in_progress,Waiting on CBS team
+CASE9039,TXN464186,in_progress,Investigating
+CASE5087,TXN178761,closed,Resolved
+CASE5951,TXN852290,closed,Retry scheduled
+CASE5166,TXN768536,closed,Retry scheduled
+CASE6064,TXN701564,in_progress,Retry scheduled
+CASE7070,TXN680030,closed,Waiting on CBS team
